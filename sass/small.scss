@@ -1,0 +1,55 @@
+.dateTime {
+  margin: 0 auto;
+  padding-left: 20px;
+  display: block;
+  width: 95%;
+  text-align: left;
+}
+
+.text {
+  width: 70%;
+  margin: 5px auto;
+  margin-left: 20px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 86%;
+  top: -50px;
+  width: 44px;
+  height: 44px;
+  margin: 0 10px;
+}
+
+.line {
+  visibility: hidden;
+}
+
+.triangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 5px 8.7px 5px;
+border-color: transparent transparent #72C1EA transparent;
+position: relative;
+left: 93%;
+top: -6px;;
+}
+
+.color:nth-child(even) {
+  .text {
+    background-color: #3F96C7;
+}}
+
+.color:nth-child(even) {
+  .triangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 5px 8.7px 5px;
+border-color: transparent transparent #3F96C7 transparent;
+position: relative;
+left: 93%;
+top: -6px;;
+}}

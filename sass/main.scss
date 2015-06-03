@@ -1,0 +1,117 @@
+.topSpace {
+  height: 50px;
+}
+
+.dateTime {
+  width: 100px;
+  margin-left: 75px;
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  float: left;
+  clear: both;
+  text-align: right;
+}
+
+.text {
+  width: 600px;
+  background-color: #6FC0EC;
+  color: white;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+  margin-left: 60px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.color:nth-child(even) {
+  .text {
+    background-color: #3F96C7;
+}}
+
+.icon {
+  position: absolute;
+  left: -68px;
+  top: -5px;
+  width: 44px;
+  height: 44px;
+  margin: 0 10px;
+}
+
+.bigBlue {
+  background-color: #B2DBF6;
+  border-radius: 100%;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+
+.date {
+  color: #B5C8D4;
+  font-size: 11px;
+  display: block;
+}
+
+.time {
+  color: #70BFE8;
+  font-size: 34px;
+  display: block;
+}
+
+.lilBlue {
+  background-color: #4DA4D5;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.fa {
+  color: white;
+  position: absolute;
+  left: 8px;
+  top: 7px;
+}
+
+.title {
+  font-size: 22px;
+  font-style: bold;
+  width: 90%;
+  margin: 0 30px;
+  padding: 20px 0;
+  border-bottom: #9FD4F0 solid 1px;
+}
+
+.content {
+  padding: 0 30px 30px 30px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.line {
+  width: 7px;
+  height: 103%;
+  background-color: #B1DBF5;
+  position: absolute;
+  left: -40px;
+  z-index: -1;
+}
+
+.triangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 7.5px 8px 7.5px 0;
+border-color: transparent #72C1EA transparent transparent;
+position: relative;
+left: -8px;
+top: 7px;
+}
+
+.color:nth-child(even) {
+  .triangle {
+border-color: transparent #3F96C7 transparent transparent;
+}}

@@ -1,0 +1,27 @@
+<div class="topSpace"></div>
+
+
+  {{#each objects}}
+    <div class="color">
+      <div class="post">
+        <div class="dateTime">
+          <span class="date">{{date}}</span>
+          <span class="time">{{time}}</span>
+        </div>
+        <div class="text">
+          <div class="icon">
+          <div class="bigBlue">
+            <div class="lilBlue">
+              <i class="fa {{icon}}"></i>
+            </div>
+          </div>
+        </div>
+          <div class="line"></div>
+          <div class="triangle"></div>
+          <p class="title">{{title}}</p>
+          <p class="content">{{content}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
